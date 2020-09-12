@@ -1,0 +1,11 @@
+[olist]
+[*][table][tr][th][code][b] ▫ Okay![/b][/code][code][b] ▫ Хорошо![/b][/code][/th][/tr][/table]
+
+[*][table][tr][th][code][b] ▫ Да![/b][/code][code][b] ▫ Да![/b][/code][/th][/tr][/table]
+
+[*][table][tr][th][code][b] ▫ Понял![/b][/code][code][b] ▫ Понял![/b][/code][/th][/tr][/table]
+
+[*][table][tr][th][code][b] ▫ Alright![/b][/code][code][b] ▫ Ладно![/b][/code][/th][/tr][/table]
+
+[*][table][tr][th][code][b] ▫ Got it![/b][/code][code][b] ▫ Понял![/b][/code][/th][/tr][/table]
+[/olist]
