@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from tempfile import NamedTemporaryFile
 from os import getcwd, listdir
 from os.path import split as pathSplit
 from re import sub as regexSub
@@ -214,12 +213,12 @@ def LocalStep(localPath, Index, step, next_step_set):
     except FileNotFoundError:
         quit(1)
 
-def titlesMDfile(argCounter, path):
-    titlefile = oPen(path + 'titles.md', 'r', encoding='UTF-8')
-    text = '[hr][/hr][h1]' + titlefile.readlines()[argCounter].split(" ", maxsplit=1)[1]+"[/h1]\n"
-    # textbox.insert('1.end', text)
-    # print(text)
-    titlefile.close()
+# def titlesMDfile(argCounter, path):
+#    titlefile = oPen(path + 'titles.md', 'r', encoding='UTF-8')
+#    text = '[hr][/hr][h1]' + titlefile.readlines()[argCounter].split(" ", maxsplit=1)[1]+"[/h1]\n"
+#    # textbox.insert('1.end', text)
+#    # print(text)
+#    titlefile.close()
 
 def TextInsertion(originalPath, localPath, Index):
     global tempf
