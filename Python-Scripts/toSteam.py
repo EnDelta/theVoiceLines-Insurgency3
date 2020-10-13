@@ -11,7 +11,7 @@ from threading import Thread, Event
 
 ########################## Cfg ##########################
 
-GitFolderLocation = getcwd()[:-14] + 'VL-Original\\'
+GitFolderLocation = getcwd()[:-14] + 'VL-Original\\' # --- J:\\github\\theVoiceLines-Insurgency3\\VL-Original\\
 
 ComboboxCategoriesValues = ['Tutorial',
                             "Spec Ops", 
@@ -39,7 +39,7 @@ FstLVLpath = ['01-Tutorial-Mission\\',
                 "11-Station\\", 
                 '12-Outpost\\']
 
-SndLVLcheck = [False,
+SubLVLvalues = [False,
                 True, 
                 True, 
                 True, 
@@ -78,7 +78,7 @@ SndLVLpath = ['.01-Radial-Menu\\',
                 '.11-Fire-Support\\', 
                 ".12-Reactions\\"]
 
-regexSwearPattern = '`.+?`'
+regexSwearPattern = '''`.+?`'''
 
 #########################################################
 
@@ -87,6 +87,7 @@ def WindowTitle(winTitle):
 
 def LoadFolder(arg): 
     global fdrOpen
+
     fdrOpen = fd.askdirectory()
     WindowTitle(pathSplit(fdrOpen)[1])
     CategoriesShow()
@@ -98,15 +99,17 @@ def LoadFolder(arg):
 
 def pathLVL1(arg):
     global pathOrigin, pathLocal
+
     pathOrigin = GitFolderLocation + FstLVLpath[arg]
     pathLocal = fdrOpen + '\\' + FstLVLpath[arg]
-    print(FstLVLpath[arg][:2])
+    
 
 def pathLVL2(category, units):
     global pathOrigin, pathLocal
+
     pathOrigin += str(category+1).zfill(2) + SndLVLpath[units]
     pathLocal += str(category+1).zfill(2) + SndLVLpath[units]
-    print(SndLVLpath[units][1:3])
+    
 
 
 def CategoriesShow():
@@ -116,19 +119,20 @@ def CategoriesShow():
 def CategoriesFunc(arg):
     textbox.delete('1.0', 'end')
     global CategoryIndex
+
     CategoryIndex = ComboboxCategoriesValues.index(comboCategories.get())
     
     comboUnits.grid_forget()
     comboUnits.current(0)
 
     pathLVL1(CategoryIndex)
-    if SndLVLcheck[CategoryIndex] == True:
+    
+    if SubLVLvalues[CategoryIndex] == True:
         pathLVL2(CategoryIndex, 0)
         UnitsShow()
         TextInsertion(pathOrigin, pathLocal, 0)
     else:
-        TextInsertion(pathOrigin, pathLocal, 0)
-        
+        TextInsertion(pathOrigin, pathLocal, 0)  
     FilesShow(pathOrigin)
 
 def UnitsShow():
@@ -147,18 +151,22 @@ def UnitsFunc(arg):
 def FilesShow(arg):
     comboFile.grid_forget
     comboFile['values'] = sorted(listdir(arg))
-    comboFile.grid(row=1, column=13, columnspan = 12, sticky = W+E)
+    comboFile.grid(row=1, column=13, columnspan = 11, sticky = W+E)
     comboFile.current(0)
+
 
 def FilesFunc(arg):
     textbox.delete('1.0', 'end')
     global FilesIndex
-    FilesIndex = sorted(listdir(pathOrigin)).index(comboFile.get())
+
+    FilesIndex = (sorted(listdir(pathOrigin))).index(comboFile.get())
     TextInsertion(pathOrigin, pathLocal, FilesIndex)
 
 
 
 def OriginalStep(originalPath, Index, step, next_step_set):
+    global ostepSWfilter
+
     fo = oPen(originalPath + sorted(listdir(originalPath))[Index], 'r', encoding='UTF-8')
     
     tempf.write('[olist]')
@@ -171,9 +179,12 @@ def OriginalStep(originalPath, Index, step, next_step_set):
         
         try:
             # TableOriginal = '\n[*][code][code][b] ▫ ' + swFilter[1] + '[/b][/code]'
-            TableOriginal = '\n[*][table][tr][th][code][b] ▫ ' + swFilter[1] + '[/b][/code]'
+            # TableOriginal = '\n[*][table][tr][th][code][b] ▫ ' + swFilter[1] + '[/b][/code]'
             # TableOriginal = '\n[*][code][table][tr][th][b] ▫ ' + swFilter[1] + '[/b][/th][/tr]'
+            TableOriginal = '\n[*][code][h3] ▫ ' + swFilter[1] + '[/h3]'
 
+            ostepSWfilter = swFilter[1]
+            
             tempf.write(str(TableOriginal))
             
         except:
@@ -184,26 +195,29 @@ def OriginalStep(originalPath, Index, step, next_step_set):
 
 def LocalStep(localPath, Index, step, next_step_set):
     try:
-        if sorted(listdir(localPath))[Index] != 'titles.md':
-            fl = oPen(localPath + sorted(listdir(localPath))[Index], "r", encoding='UTF-8')
+        sortedListdir = sorted(listdir(localPath))[Index]
+        if sortedListdir != 'titles.md':
+            fl = oPen(localPath + sortedListdir, "r", encoding='UTF-8')
             for line in fl.readlines():
                 step.wait()
                 step.clear()
 
                 swFilter = regexSub(regexSwearPattern, SwearFilter, line.rstrip()).split(" ", maxsplit=1)
                 try:
-                    if swFilter[1] != "None":
+                    if swFilter[1] != ostepSWfilter:
                         # TableLocal = '[code][b] ▫ ' + swFilter[1] + '[/b][/code][/code]\n'
-                        TableLocal = '[code][b] ▫ ' + swFilter[1] + '[/b][/code][/th][/tr][/table]\n'
+                        # TableLocal = '[code][b] ▫ ' + swFilter[1] + '[/b][/code][/th][/tr][/table]\n'
                         # TableLocal = '[tr][th][b] ▫ ' + swFilter[1] + '[/b][/th][/tr][/table][/code]\n'
+                        TableLocal = '[hr][/hr][h3] ▫ [b]' + swFilter[1] + '[/b][/h3][/code]\n'
                     else:
                         # TableLocal = '[/code]\n'
-                        TableLocal = '[/th][/tr][/table]\n'
+                        # TableLocal = '[/th][/tr][/table]\n'
                         # TableLocal = '[/table][/code]\n'
+                        TableLocal = '[/code]\n'
 
                     tempf.write(str(TableLocal))
                 except:
-                    tempf.write('\nerror at: ' + localPath + sorted(listdir(localPath))[Index] + ' -|- ' + line.rstrip() + '\n')                
+                    tempf.write('\nerror at: ' + localPath + sortedListdir + ' -|- ' + line.rstrip() + '\n')                
                     
                 next_step_set.set()
             fl.close()
@@ -222,6 +236,7 @@ def LocalStep(localPath, Index, step, next_step_set):
 
 def TextInsertion(originalPath, localPath, Index):
     global tempf
+
     tempf = oPen('tmp.txt', 'w', encoding='UTF-8')
     tempf.close
     tempf = oPen('tmp.txt', 'a', encoding='UTF-8')
@@ -279,5 +294,5 @@ comboFile.bind("<<ComboboxSelected>>", FilesFunc)
 textbox.bind("<Control-Key-a>", None)
 textbox.bind("<Control-Key-A>", None) # In case caps lock is on
 
-WindowTitle('Select the language')
+WindowTitle('Select the language folder in "VL-Translations"')
 window.mainloop()

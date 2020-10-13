@@ -80,6 +80,7 @@ Operative - Fire Support
 Operative - Reactions
 Warlock (Jet)
 Assassin (Helicopter)
-Station (HQ Security Forces)
-Outpost (HQ Insurgents)
+Cleric (Helicopter)
+Station (Security Forces)
+Outpost (Insurgents)
 F.A.Q.

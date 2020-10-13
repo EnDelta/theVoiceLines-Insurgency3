@@ -94,12 +94,12 @@ def SwearFilter(Swear):
     if len(Swear[0])-2 <= 2:
         return '⚹' * (len(Swear[0]) - 2)
     elif len(Swear[0])-2 <= 5:
-        return Swear[0][1:2] + '⚹' * (len(Swear[0]) - 3)
+        return Swear[0][1:2] + '*' * (len(Swear[0]) - 3)
     elif len(Swear[0])-2 > 5:
-        return Swear[0][1:2] + '⚹' * (len(Swear[0]) - 4) + Swear[0][-2:-1]
+        return Swear[0][1:2] + '*' * (len(Swear[0]) - 4) + Swear[0][-2:-1]
 
-fdrOpen = fd.askdirectory()
-srtOpen = fd.askopenfilename()
+srtOpen = fd.askopenfilename(title='Open srt sample')
+fdrOpen = fd.askdirectory(title='Open folder (According Video and Language)')
 
 copyfile(srtOpen, pathSplit(srtOpen))
 fileopen = open(pathSplit(srtOpen), 'r', encoding='utf-8')

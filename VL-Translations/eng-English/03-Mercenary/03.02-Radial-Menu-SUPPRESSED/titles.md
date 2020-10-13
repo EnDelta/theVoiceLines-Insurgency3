@@ -10,8 +10,8 @@
 10. 
 11. Enemy is dead
 12. Enemy is dead (Melee combat)
-13. Need help
-14. Need smoke
+13. Need assistance
+14. Need smoke cover
 15. Pick me up
 16. Get in
 17. Intimidate

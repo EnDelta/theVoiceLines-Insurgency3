@@ -1,85 +1,86 @@
-Introduction
-Tutorial mission
-Spec Ops - Radial Menu
-Spec Ops - Radial Menu: Suppressed
-Spec Ops - Interactions
-Spec Ops - Interactions: Suppressed
-Spec Ops - Bot
-Spec Ops - Commander
-Spec Ops - Commander: Suppressed
-Spec Ops - Observer
-Spec Ops - Observer: Suppressed
-Spec Ops - Gameplay
-Spec Ops - Gameplay: Objectives
-Spec Ops - Fire Support
-Spec Ops - Reactions
-Mercenary - Radial Menu
-Mercenary - Radial Menu: Suppressed
-Mercenary - Interactions
-Mercenary - Interactions: Suppressed
-Mercenary - Bot
-Mercenary - Commander
-Mercenary - Commander: Suppressed
-Mercenary - Observer
-Mercenary - Observer: Suppressed
-Mercenary - Gameplay
-Mercenary - Gameplay: Objectives
-Mercenary - Fire Support
-Mercenary - Reactions
-Militia - Radial Menu
-Militia - Radial Menu: Suppressed
-Militia - Interactions
-Militia - Interactions: Suppressed
-Militia - Bot
-Militia - Commander
-Militia - Commander: Suppressed
-Militia - Observer
-Militia - Observer: Suppressed
-Militia - Gameplay
-Militia - Gameplay: Objectives
-Militia - Fire Support
-Militia - Reactions
-Rebel - Radial Menu
-Rebel - Radial Menu: Suppressed
-Rebel - Interactions
-Rebel - Interactions: Suppressed
-Rebel - Bot
-Rebel - Commander
-Rebel - Commander: Suppressed
-Rebel - Observer
-Rebel - Observer: Suppressed
-Rebel - Gameplay
-Rebel - Gameplay: Objectives
-Rebel - Fire Support
-Rebel - Reactions
-Regular - Radial Menu
-Regular - Radial Menu: Suppressed
-Regular - Interactions
-Regular - Interactions: Suppressed
-Regular - Bot
-Regular - Commander
-Regular - Commander: Suppressed
-Regular - Observer
-Regular - Observer: Suppressed
-Regular - Gameplay
-Regular - Gameplay: Objectives
-Regular - Fire Support
-Regular - Reactions
-Operative - Radial Menu
-Operative - Radial Menu: Suppressed
-Operative - Interactions
-Operative - Interactions: Suppressed
-Operative - Bot
-Operative - Commander
-Operative - Commander: Suppressed
-Operative - Observer
-Operative - Observer: Suppressed
-Operative - Gameplay
-Operative - Gameplay: Objectives
-Operative - Fire Support
-Operative - Reactions
-Warlock (Jet)
-Assassin (Helicopter)
-Station (HQ Security Forces)
-Outpost (HQ Insurgents)
-F.A.Q.
+Вступление
+Учебная миссия
+Спецназ - Круговое Меню
+Спецназ - Круговое Меню: Под подавлением
+Спецназ - Взаимодействия
+Спецназ - Взаимодействия: Под подавлением
+Спецназ - Бот
+Спецназ - Командир
+Спецназ - Командир: Под подавлением
+Спецназ - Наблюдатель
+Спецназ - Наблюдатель: Под подавлением
+Спецназ - Игровой процесс
+Спецназ - Игровой процесс: Точки
+Спецназ - Огневая Поддержка
+Спецназ - Реакции
+Наёмник - Круговое Меню
+Наёмник - Круговое Меню: Под подавлением
+Наёмник - Взаимодействия
+Наёмник - Взаимодействия: Под подавлением
+Наёмник - Бот
+Наёмник - Командир
+Наёмник - Командир: Под подавлением
+Наёмник - Наблюдатель
+Наёмник - Наблюдатель: Под подавлением
+Наёмник - Игровой процесс
+Наёмник - Игровой процесс: Точки
+Наёмник - Огневая Поддержка
+Наёмник - Реакции
+Ополченка - Круговое Меню
+Ополченка - Круговое Меню: Под подавлением
+Ополченка - Взаимодействия
+Ополченка - Взаимодействия: Под подавлением
+Ополченка - Бот
+Ополченка - Командир
+Ополченка - Командир: Под подавлением
+Ополченка - Наблюдатель
+Ополченка - Наблюдатель: Под подавлением
+Ополченка - Игровой процесс
+Ополченка - Игровой процесс: Точки
+Ополченка - Огневая Поддержка
+Ополченка - Реакции
+Повстанец - Круговое Меню
+Повстанец - Круговое Меню: Под подавлением
+Повстанец - Взаимодействия
+Повстанец - Взаимодействия: Под подавлением
+Повстанец - Бот
+Повстанец - Командир
+Повстанец - Командир: Под подавлением
+Повстанец - Наблюдатель
+Повстанец - Наблюдатель: Под подавлением
+Повстанец - Игровой процесс
+Повстанец - Игровой процесс: Точки
+Повстанец - Огневая Поддержка
+Повстанец - Реакции
+Солдат регулярного войска - Круговое Меню
+Солдат регулярного войска - Круговое Меню: Под подавлением
+Солдат регулярного войска - Взаимодействия
+Солдат регулярного войска - Взаимодействия: Под подавлением
+Солдат регулярного войска - Бот
+Солдат регулярного войска - Командир
+Солдат регулярного войска - Командир: Под подавлением
+Солдат регулярного войска - Наблюдатель
+Солдат регулярного войска - Наблюдатель: Под подавлением
+Солдат регулярного войска - Игровой процесс
+Солдат регулярного войска - Игровой процесс: Точки
+Солдат регулярного войска - Огневая Поддержка
+Солдат регулярного войска - Реакции
+Оперативник - Круговое Меню
+Оперативник - Круговое Меню: Под подавлением
+Оперативник - Взаимодействия
+Оперативник - Взаимодействия: Под подавлением
+Оперативник - Бот
+Оперативник - Командир
+Оперативник - Командир: Под подавлением
+Оперативник - Наблюдатель
+Оперативник - Наблюдатель: Под подавлением
+Оперативник - Игровой процесс
+Оперативник - Игровой процесс: Точки
+Оперативник - Огневая Поддержка
+Оперативник - Реакции
+Колдун (Реактивный cамолет)
+Убийца (Вертолет)
+Cвященник (Вертолет)
+Станция (Охранные войска)
+Застава (Мятежники)
+ЧаВо
