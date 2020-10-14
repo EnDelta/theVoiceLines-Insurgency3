@@ -208,12 +208,12 @@ def LocalStep(localPath, Index, step, next_step_set):
                         # TableLocal = '[code][b] ▫ ' + swFilter[1] + '[/b][/code][/code]\n'
                         # TableLocal = '[code][b] ▫ ' + swFilter[1] + '[/b][/code][/th][/tr][/table]\n'
                         # TableLocal = '[tr][th][b] ▫ ' + swFilter[1] + '[/b][/th][/tr][/table][/code]\n'
-                        TableLocal = '[hr][/hr][h3] ▫ [b]' + swFilter[1] + '[/b][/h3][/code]\n'
+                        TableLocal = '[hr][/hr][h3] ▫ [b]' + swFilter[1] + '[/b][/h3][/code]'
                     else:
                         # TableLocal = '[/code]\n'
                         # TableLocal = '[/th][/tr][/table]\n'
                         # TableLocal = '[/table][/code]\n'
-                        TableLocal = '[/code]\n'
+                        TableLocal = '[/code]'
 
                     tempf.write(str(TableLocal))
                 except:
