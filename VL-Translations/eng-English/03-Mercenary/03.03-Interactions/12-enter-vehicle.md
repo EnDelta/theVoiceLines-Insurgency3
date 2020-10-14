@@ -1,5 +1,5 @@
-1. 
-2. 
-3. 
-4. 
-5. 
+1. I'm in!
+2. In!
+3. Okay, go!
+4. I'm ready!
+5. Onward!

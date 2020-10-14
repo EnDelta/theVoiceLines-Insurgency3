@@ -1,6 +1,6 @@
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Molotov going out!
+2. Throwing Molotov!
+3. Throwing fire! Get back!
+4. God sake, move away!
+5. I'm burning it!
+6. Move away!

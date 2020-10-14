@@ -1,8 +1,8 @@
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Breaching!
+2. Moving in!
+3. Moving in!
+4. Go!
+5. Breach! Breach!
+6. Come on!
+7. Faster, go!
+8. -

@@ -1,6 +1,6 @@
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Move! Move! Move!
+2. Get closer! `Fuck`! `Fuck`!
+3. Bastards
+4. `Fuck`! `Fuck`! `Fuck`!
+5. -
+6. -
