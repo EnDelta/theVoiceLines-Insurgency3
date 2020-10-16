@@ -2,4 +2,4 @@
 2. Who still alive?!
 3. Is everyone okay?! Hey?!
 4. Who's been shot?! Anyone?!
-5. 
+5. Hey, [unrecognized Arabic phrase]! Say something!

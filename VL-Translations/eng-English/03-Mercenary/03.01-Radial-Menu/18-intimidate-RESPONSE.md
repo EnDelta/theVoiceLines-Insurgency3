@@ -1,4 +1,4 @@
-1. Oh, you like to talk, uh?
+1. Oh, you like to talk, uh?!
 2. Shut up!
 3. Come here, `faggy`!
 4. `Fuck` you!

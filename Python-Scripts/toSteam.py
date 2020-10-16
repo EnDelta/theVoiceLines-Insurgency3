@@ -11,7 +11,7 @@ from threading import Thread, Event
 
 ########################## Cfg ##########################
 
-GitFolderLocation = getcwd()[:-14] + 'VL-Original\\' # --- J:\\github\\theVoiceLines-Insurgency3\\VL-Original\\
+GitFolderLocation = 'I:\\github\\theVoiceLines-Insurgency3\\VL-Original\\' # getcwd()[:-14] + 'VL-Original\\'
 
 ComboboxCategoriesValues = ['Tutorial',
                             "Spec Ops", 
@@ -227,6 +227,22 @@ def LocalStep(localPath, Index, step, next_step_set):
     except FileNotFoundError:
         quit(1)
 
+def TitlesTextInsertion(localPath, Index):
+    TitleText.delete(0, 'end')
+    
+    try:
+        with open(localPath + 'titles.md', 'r', encoding='UTF-8') as f:
+            fread = f.readlines()
+            f.close()
+            fcleanup = fread[Index].rstrip().split(" ", maxsplit=1)
+            if fcleanup[1] == '-':
+                Title = ''
+            else:
+                Title = '▫ ' + fcleanup[1]
+        TitleText.insert(0, Title)
+    except FileNotFoundError:
+        TitleText.insert(0, 'File Not Found Error')
+
 # def titlesMDfile(argCounter, path):
 #    titlefile = oPen(path + 'titles.md', 'r', encoding='UTF-8')
 #    text = '[hr][/hr][h1]' + titlefile.readlines()[argCounter].split(" ", maxsplit=1)[1]+"[/h1]\n"
@@ -259,7 +275,10 @@ def TextInsertion(originalPath, localPath, Index):
     textbox.delete('1.0', 'end')
     tempf = oPen('tmp.txt', 'r', encoding='UTF-8')
     textbox.insert('0.end', tempf.read())
-    tempf.close()  
+    tempf.close()
+
+    TitlesTextInsertion(localPath, Index)
+    # The end
 
 def SwearFilter(Swear):
     return '⚹' * (len(Swear[0]) - 2)

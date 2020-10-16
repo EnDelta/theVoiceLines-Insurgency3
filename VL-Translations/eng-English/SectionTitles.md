@@ -1,5 +1,7 @@
 Introduction
+
 Tutorial mission
+
 Spec Ops - Radial Menu
 Spec Ops - Radial Menu: Suppressed
 Spec Ops - Interactions
@@ -10,9 +12,9 @@ Spec Ops - Commander: Suppressed
 Spec Ops - Observer
 Spec Ops - Observer: Suppressed
 Spec Ops - Gameplay
-Spec Ops - Gameplay: Objectives
 Spec Ops - Fire Support
 Spec Ops - Reactions
+
 Mercenary - Radial Menu
 Mercenary - Radial Menu: Suppressed
 Mercenary - Interactions
@@ -23,9 +25,9 @@ Mercenary - Commander: Suppressed
 Mercenary - Observer
 Mercenary - Observer: Suppressed
 Mercenary - Gameplay
-Mercenary - Gameplay: Objectives
 Mercenary - Fire Support
 Mercenary - Reactions
+
 Militia - Radial Menu
 Militia - Radial Menu: Suppressed
 Militia - Interactions
@@ -36,9 +38,9 @@ Militia - Commander: Suppressed
 Militia - Observer
 Militia - Observer: Suppressed
 Militia - Gameplay
-Militia - Gameplay: Objectives
 Militia - Fire Support
 Militia - Reactions
+
 Rebel - Radial Menu
 Rebel - Radial Menu: Suppressed
 Rebel - Interactions
@@ -49,9 +51,9 @@ Rebel - Commander: Suppressed
 Rebel - Observer
 Rebel - Observer: Suppressed
 Rebel - Gameplay
-Rebel - Gameplay: Objectives
 Rebel - Fire Support
 Rebel - Reactions
+
 Regular - Radial Menu
 Regular - Radial Menu: Suppressed
 Regular - Interactions
@@ -62,9 +64,9 @@ Regular - Commander: Suppressed
 Regular - Observer
 Regular - Observer: Suppressed
 Regular - Gameplay
-Regular - Gameplay: Objectives
 Regular - Fire Support
 Regular - Reactions
+
 Operative - Radial Menu
 Operative - Radial Menu: Suppressed
 Operative - Interactions
@@ -75,12 +77,14 @@ Operative - Commander: Suppressed
 Operative - Observer
 Operative - Observer: Suppressed
 Operative - Gameplay
-Operative - Gameplay: Objectives
 Operative - Fire Support
 Operative - Reactions
+
 Warlock (Jet)
 Assassin (Helicopter)
 Cleric (Helicopter)
+
 Station (Security Forces)
 Outpost (Insurgents)
+
 F.A.Q.
