@@ -6,7 +6,7 @@
 ## Links:
 lang | Instructions | Links to Sections | Source text | Localization |
 ---: | :---: | :---: | :---: | :---:
-eng | [Manual](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/%5Beng%5D-Manual)| [Sections]() | [Original](https://github.com/EnDelta/theVoiceLines-Insurgency3/tree/master/VL-Original) | [Translation](https://github.com/EnDelta/theVoiceLines-Insurgency3/tree/master/VL-Translations/eng-English)
+eng | [Manual](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/%5Beng%5D-Manual)| [Sections](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/%5Beng%5D-Links#sections) | [Original](https://github.com/EnDelta/theVoiceLines-Insurgency3/tree/master/VL-Original) | [Translation](https://github.com/EnDelta/theVoiceLines-Insurgency3/tree/master/VL-Translations/eng-English)
 ru-RU | [Инструкция](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/%5Bru_ru%5D-Инструкция) | [Разделы](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/%5Bru_ru%5D-Ссылки#Разделы) | [Исходный текст](https://github.com/EnDelta/theVoiceLines-Insurgency3/tree/master/VL-Original) | [Перевод](https://github.com/EnDelta/theVoiceLines-Insurgency3/tree/master/VL-Translations/ru-RU-Russian)
 ar | `العربية` | [none](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/Blank-page) | [none](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/Blank-page) | [none](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/Blank-page)
 bg-BG | `Български` | [none](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/Blank-page) | [none](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/Blank-page) | [none](https://github.com/EnDelta/theVoiceLines-Insurgency3/wiki/Blank-page)
