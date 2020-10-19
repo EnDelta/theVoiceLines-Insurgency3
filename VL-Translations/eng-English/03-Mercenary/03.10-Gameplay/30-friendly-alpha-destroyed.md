@@ -1,5 +1,5 @@
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Fuck, they blown up A!
+2. Fuck, A is destroyed!
+3. Ah, fuck! A is gone!
+4. They just took out A!
+5. A is gone! They destroyed it!

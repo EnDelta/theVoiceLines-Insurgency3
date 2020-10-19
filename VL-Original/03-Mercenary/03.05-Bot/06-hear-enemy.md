@@ -5,6 +5,6 @@
 5. Right there!
 6. Enemy close!
 7. Враг рядом!
-8. They coming, fuck!
-9. Сука, блядь!
-10. Shit!
+8. They coming, `fuck`!
+9. `Сука`, `блядь`!
+10. `Shit`!

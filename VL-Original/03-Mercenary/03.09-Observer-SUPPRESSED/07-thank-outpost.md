@@ -1,8 +1,8 @@
-init1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Alright!
+2. Okay, okay!
+3. Fine, yes!
+4. Thanks, Alakhwhah (الإخوة)!
+5. Понял! Понял!
+6. Bye! Bye!
+7. Как скажешь!
+8. Okay, shukran (شكراً)!

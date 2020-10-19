@@ -11,7 +11,9 @@ from threading import Thread, Event
 
 ########################## Cfg ##########################
 
-GitFolderLocation = 'I:\\github\\theVoiceLines-Insurgency3\\VL-Original\\' # getcwd()[:-14] + 'VL-Original\\'
+GitFolderLocation = 'I:\\github\\theVoiceLines-Insurgency3\\VL-Original\\'
+# GitFolderLocation = 'K:\\github\\theVoiceLines-Insurgency3\\VL-Original\\'
+# GitFolderLocation = getcwd()[:-14] + 'VL-Original\\'
 
 ComboboxCategoriesValues = ['Tutorial',
                             "Spec Ops", 
@@ -86,12 +88,13 @@ def WindowTitle(winTitle):
     window.title('Steam | ' + winTitle)
 
 def LoadFolder(arg): 
-    global fdrOpen
+    global fdrOpen, FilesIndex
 
     fdrOpen = fd.askdirectory()
     WindowTitle(pathSplit(fdrOpen)[1])
     CategoriesShow()
     pathLVL1(0)
+    FilesIndex = 0
     TextInsertion(pathOrigin, pathLocal, 0)
     TextInsertion(pathOrigin, pathLocal, 0)
     FilesShow(pathOrigin)
@@ -117,8 +120,7 @@ def CategoriesShow():
     comboCategories.current(0)   
 
 def CategoriesFunc(arg):
-    textbox.delete('1.0', 'end')
-    global CategoryIndex
+    global CategoryIndex, FilesIndex
 
     CategoryIndex = ComboboxCategoriesValues.index(comboCategories.get())
     
@@ -132,21 +134,24 @@ def CategoriesFunc(arg):
         UnitsShow()
         TextInsertion(pathOrigin, pathLocal, 0)
     else:
-        TextInsertion(pathOrigin, pathLocal, 0)  
+        TextInsertion(pathOrigin, pathLocal, 0)
     FilesShow(pathOrigin)
+    FilesIndex = 0
 
 def UnitsShow():
     comboUnits.grid(row=1, column=3, columnspan = 8, sticky = W+E)
     comboUnits.current(0)                        
 
 def UnitsFunc(arg):
-    textbox.delete('1.0', 'end')
     UnitsIndex = ComboboxUnitsValues.index(comboUnits.get())
+
+    global FilesIndex
 
     pathLVL1(CategoryIndex)
     pathLVL2(CategoryIndex, UnitsIndex)
     FilesShow(pathOrigin)
     TextInsertion(pathOrigin, pathLocal, 0)
+    FilesIndex = 0
 
 def FilesShow(arg):
     comboFile.grid_forget
@@ -156,7 +161,6 @@ def FilesShow(arg):
 
 
 def FilesFunc(arg):
-    textbox.delete('1.0', 'end')
     global FilesIndex
 
     FilesIndex = (sorted(listdir(pathOrigin))).index(comboFile.get())
@@ -238,17 +242,10 @@ def TitlesTextInsertion(localPath, Index):
             if fcleanup[1] == '-':
                 Title = ''
             else:
-                Title = '▫ ' + fcleanup[1]
+                Title = '▫ ' + '{:02}'.format(int(fcleanup[0][:-1])) + ' \\\\ ' + fcleanup[1]
         TitleText.insert(0, Title)
     except FileNotFoundError:
         TitleText.insert(0, 'File Not Found Error')
-
-# def titlesMDfile(argCounter, path):
-#    titlefile = oPen(path + 'titles.md', 'r', encoding='UTF-8')
-#    text = '[hr][/hr][h1]' + titlefile.readlines()[argCounter].split(" ", maxsplit=1)[1]+"[/h1]\n"
-#    # textbox.insert('1.end', text)
-#    # print(text)
-#    titlefile.close()
 
 def TextInsertion(originalPath, localPath, Index):
     global tempf
@@ -283,6 +280,32 @@ def TextInsertion(originalPath, localPath, Index):
 def SwearFilter(Swear):
     return '⚹' * (len(Swear[0]) - 2)
 
+def CheckPressing(event):
+    if event.keysym == "Caps_Lock":
+        PreviousPAGE()
+    elif event.keysym == 'Shift_L':
+        NextPAGE()
+    else: 
+        print(event.keysym)
+        pass
+
+def PreviousPAGE():
+    global FilesIndex
+    if int(FilesIndex) != 0:
+        FilesIndex += -1
+        comboFile.current(FilesIndex)
+        TextInsertion(pathOrigin, pathLocal, FilesIndex)
+
+def NextPAGE():
+    global FilesIndex
+    try:
+        FilesIndex += 1
+        comboFile.current(FilesIndex)
+        TextInsertion(pathOrigin, pathLocal, FilesIndex)
+    except:
+        FilesIndex += -1
+
+
 window = Tk()
 # window.geometry("720x576")
 
@@ -312,6 +335,8 @@ comboFile.bind("<<ComboboxSelected>>", FilesFunc)
 
 textbox.bind("<Control-Key-a>", None)
 textbox.bind("<Control-Key-A>", None) # In case caps lock is on
+
+textbox.bind('<Key>', CheckPressing)
 
 WindowTitle('Select the language folder in "VL-Translations"')
 window.mainloop()

@@ -6,4 +6,4 @@
 6. Firing!
 7. Веду бой!
 8. Shoot them!
-9. Fire! Them! Now! Fuck!
+9. Fire! Them! Now! `Fuck`!

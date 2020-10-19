@@ -1,4 +1,4 @@
-init1. 
-2. 
-3. 
-4. 
+1. Сука, they on A!
+2. Hey, they on A!
+3. Enemy is taking A!
+4. We're losing A!

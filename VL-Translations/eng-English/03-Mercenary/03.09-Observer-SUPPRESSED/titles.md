@@ -1,10 +1,7 @@
-1. Request extraction
-2. Request explosive artillery
-3. Request smoke artillery
-4. Request warlock
-5. Request assassin
-6. Request cleric
-7. Thank station
-8. Thank warlock
-9. Thank assassin
-10. Thank cleric
+1. Request explosive mortars
+2. Request smoke mortars
+3. Request chemical mortars
+4. Request grenade drones
+5. Request I.E.D. drone
+6. Request rocket barrage
+7. Thank outpost
