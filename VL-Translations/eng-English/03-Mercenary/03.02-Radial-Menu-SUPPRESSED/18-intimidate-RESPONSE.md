@@ -8,4 +8,4 @@
 8. Ah! Stab your eye with a `dick`, `bitch`!
 9. I'll stab your anus, `fucking` `asshole`!
 10. `Fuck` you, `fucking` `cunt`! Die, `bitch`!
-11. `Fucking` windbag!
+11. `Twat` bag!

@@ -12,7 +12,7 @@ from threading import Thread, Event
 ########################## Cfg ##########################
 
 GitFolderLocation = 'I:\\github\\theVoiceLines-Insurgency3\\VL-Original\\'
-# GitFolderLocation = 'K:\\github\\theVoiceLines-Insurgency3\\VL-Original\\'
+#GitFolderLocation = 'K:\\github\\theVoiceLines-Insurgency3\\VL-Original\\'
 # GitFolderLocation = getcwd()[:-14] + 'VL-Original\\'
 
 ComboboxCategoriesValues = ['Tutorial',

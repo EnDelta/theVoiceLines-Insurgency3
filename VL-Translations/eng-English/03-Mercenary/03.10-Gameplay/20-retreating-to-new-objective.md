@@ -1,5 +1,5 @@
 1. Fall back to next position!
-2. Fuck, we lost it! Fall back!
+2. Son of a `bitch`, we lost it! Fall back!
 3. Move back! Defend our next position!
-4. Fuck, they took it! Get back! Get back!
-5. Stop fucking losing them!
+4. `Fuck`, they took it! Get back! Get back!
+5. Stop `fucking` losing them!

@@ -1,90 +1,13 @@
-Introduction
+The guide is a work in progress: currently the Mercenary is available with the text.
 
-Tutorial mission
+English is not the author's native language: there may be mistakes.
+You can always leave a comment or fix it yourself using the project on Github
 
-Spec Ops - Radial Menu
-Spec Ops - Radial Menu: Suppressed
-Spec Ops - Interactions
-Spec Ops - Interactions: Suppressed
-Spec Ops - Bot
-Spec Ops - Commander
-Spec Ops - Commander: Suppressed
-Spec Ops - Observer
-Spec Ops - Observer: Suppressed
-Spec Ops - Gameplay
-Spec Ops - Fire Support
-Spec Ops - Reactions
+Help the authors to improve the guide and translate it into other languages!
 
-Mercenary - Radial Menu
-Mercenary - Radial Menu: Suppressed
-Mercenary - Interactions
-Mercenary - Interactions: Suppressed
-Mercenary - Bot
-Mercenary - Commander
-Mercenary - Commander: Suppressed
-Mercenary - Observer
-Mercenary - Observer: Suppressed
-Mercenary - Gameplay
-Mercenary - Fire Support
-Mercenary - Reactions
+Use the project on Github - https://github.com/EnDelta/theVoiceLines-Insurgency3.
 
-Militia - Radial Menu
-Militia - Radial Menu: Suppressed
-Militia - Interactions
-Militia - Interactions: Suppressed
-Militia - Bot
-Militia - Commander
-Militia - Commander: Suppressed
-Militia - Observer
-Militia - Observer: Suppressed
-Militia - Gameplay
-Militia - Fire Support
-Militia - Reactions
+▫ Follow the project's manual and https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810 the Steam rules
+▫ Do not distribute this guide!
 
-Rebel - Radial Menu
-Rebel - Radial Menu: Suppressed
-Rebel - Interactions
-Rebel - Interactions: Suppressed
-Rebel - Bot
-Rebel - Commander
-Rebel - Commander: Suppressed
-Rebel - Observer
-Rebel - Observer: Suppressed
-Rebel - Gameplay
-Rebel - Fire Support
-Rebel - Reactions
-
-Regular - Radial Menu
-Regular - Radial Menu: Suppressed
-Regular - Interactions
-Regular - Interactions: Suppressed
-Regular - Bot
-Regular - Commander
-Regular - Commander: Suppressed
-Regular - Observer
-Regular - Observer: Suppressed
-Regular - Gameplay
-Regular - Fire Support
-Regular - Reactions
-
-Operative - Radial Menu
-Operative - Radial Menu: Suppressed
-Operative - Interactions
-Operative - Interactions: Suppressed
-Operative - Bot
-Operative - Commander
-Operative - Commander: Suppressed
-Operative - Observer
-Operative - Observer: Suppressed
-Operative - Gameplay
-Operative - Fire Support
-Operative - Reactions
-
-Warlock (Jet)
-Assassin (Helicopter)
-Cleric (Helicopter)
-
-Station (Security Forces)
-Outpost (Insurgents)
-
-F.A.Q.
+Join to https://discord.gg/sDVpQwK EnDelta's Open Projects the Discord server

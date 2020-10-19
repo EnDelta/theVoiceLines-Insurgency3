@@ -6,7 +6,7 @@
 6. Go!
 7. Come on!
 8. Move it! Move it! `Fucker`!
-9. Kill them! Kill them!
+9. Kill them for `fuck`'s sake!
 10. Attack!
 11. `Fucking` go! Go!
 12. `Fuck`, move!

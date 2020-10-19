@@ -1,5 +1,5 @@
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Rocket!
+2. Incoming!
+3. `Fuck`, rocket!
+4. Uh... Oh, `fuck`!
+5. Rocket!

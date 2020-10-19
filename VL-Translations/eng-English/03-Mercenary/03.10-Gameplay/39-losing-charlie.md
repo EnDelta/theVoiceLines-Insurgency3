@@ -1,4 +1,4 @@
-1. Fuck, they are on C!
+1. `Fuck`, they are on C!
 2. There at C!
 3. Enemy on C!
-4. Losing C, shit!
+4. Losing C, `shit`!

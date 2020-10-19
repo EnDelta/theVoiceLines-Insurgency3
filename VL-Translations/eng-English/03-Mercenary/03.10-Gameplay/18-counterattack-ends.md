@@ -10,4 +10,4 @@
 10. Good! They're retreating!
 11. Look - the rats are running!
 12. Oh, I'd rather be a `fucking` pilot!
-13. What, the rats run, right?!
+13. Wut, the rats run, right?!

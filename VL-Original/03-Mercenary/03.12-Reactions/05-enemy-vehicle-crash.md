@@ -1,5 +1,5 @@
-init1. 
-2. 
-3. 
-4. 
-5. 
+1. Enemy! Look!
+2. That's them!
+3. That's their car!
+4. Shoot them! That's them!
+5. `Fuck` look!

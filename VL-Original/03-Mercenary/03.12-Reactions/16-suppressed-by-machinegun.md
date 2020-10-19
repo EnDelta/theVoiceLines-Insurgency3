@@ -1,5 +1,5 @@
-init1. 
-2. 
-3. 
-4. 
-5. 
+1. Пулемётчик!
+2. `Fucking` machinegun!
+3. Чёрт, machinegun!
+4. Kill that machinegun for `fuck`'s sake!
+5. Machinegun! Machinegun!

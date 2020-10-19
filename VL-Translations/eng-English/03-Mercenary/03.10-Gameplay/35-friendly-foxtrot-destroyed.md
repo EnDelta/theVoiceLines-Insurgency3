@@ -1,3 +1,3 @@
-1. F has been destroyed! Fuck!
+1. F has been destroyed! `Fuck`!
 2. Enemy just took out F!
-3. Shit, we lost F!
+3. `Shit`, we lost F!

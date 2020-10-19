@@ -16,7 +16,7 @@
 16. Loading!
 17. I'm loading up!
 18. Okay!
-19. Damn!
+19. Hell!
 20. Uh... Crap!
 21. `Fuckin'`...
 22. -

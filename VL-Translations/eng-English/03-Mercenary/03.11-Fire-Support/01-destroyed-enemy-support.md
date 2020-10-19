@@ -1,8 +1,8 @@
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Helicopter is coming down, look out!
+2. We got it! We got it!
+3. Ha-ha! Eat this!
+4. It's coming down! You get out the `fucking` way, you `fuck`!
+5. `Fuck`, we got them!
+6. Helicopter is hit!
+7. Hey! Hey! Hey, look out! It's coming down!
+8. `Fuck`, it's gonna crash!

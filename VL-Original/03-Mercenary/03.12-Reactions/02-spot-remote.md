@@ -1,5 +1,5 @@
-init1. 
-2. 
-3. 
-4. 
-5. 
+1. Explosive!
+2. Get away from it!
+3. Bomb!
+4. Бомба!
+5. Сейчас рванёт!

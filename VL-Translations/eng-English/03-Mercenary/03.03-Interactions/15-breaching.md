@@ -4,5 +4,5 @@
 4. Go!
 5. Breach! Breach!
 6. Come on!
-7. Faster, go!
+7. Quickly, go!
 8. -

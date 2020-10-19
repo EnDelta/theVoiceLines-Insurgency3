@@ -1,9 +1,9 @@
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
+1. Hey, these our gas!
+2. Gas!
+3. Gas! Gas! Gas!
+4. Put on a masks! Masks!
+5. Masks! Get masks on!
+6. Hope you brought masks!
+7. Masks on! Masks on!
+8. Put your `fucking` masks on!
+9. Put on the masks!
